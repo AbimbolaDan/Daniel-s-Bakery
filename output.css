@@ -259,17 +259,20 @@
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
-  .mt-6 {
-    margin-top: calc(var(--spacing) * 6);
-  }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
-  .mt-\[40px\] {
-    margin-top: 40px;
+  .mt-\[50px\] {
+    margin-top: 50px;
   }
-  .mt-\[90px\] {
-    margin-top: 90px;
+  .mt-\[80px\] {
+    margin-top: 80px;
+  }
+  .mt-\[100px\] {
+    margin-top: 100px;
+  }
+  .mb-1 {
+    margin-bottom: var(--spacing);
   }
   .mb-1\.5 {
     margin-bottom: calc(var(--spacing) * 1.5);
@@ -304,26 +307,14 @@
   .h-52 {
     height: calc(var(--spacing) * 52);
   }
-  .h-\[100px\] {
-    height: 100px;
-  }
   .h-full {
     height: 100%;
   }
   .min-h-\[90vh\] {
     min-height: 90vh;
   }
-  .w-20 {
-    width: calc(var(--spacing) * 20);
-  }
-  .w-\[100px\] {
-    width: 100px;
-  }
   .w-full {
     width: 100%;
-  }
-  .w-sm {
-    width: var(--container-sm);
   }
   .max-w-2xl {
     max-width: var(--container-2xl);
@@ -411,16 +402,13 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
   }
+  .border-amber-500 {
+    border-color: var(--color-amber-500);
+  }
   .border-amber-500\/20 {
     border-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 20%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       border-color: color-mix(in oklab, var(--color-amber-500) 20%, transparent);
-    }
-  }
-  .border-amber-500\/30 {
-    border-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 30%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      border-color: color-mix(in oklab, var(--color-amber-500) 30%, transparent);
     }
   }
   .border-artisanGold {
@@ -450,15 +438,6 @@
   .bg-\[\#0b0b0b\] {
     background-color: #0b0b0b;
   }
-  .bg-amber-400 {
-    background-color: var(--color-amber-400);
-  }
-  .bg-amber-950\/20 {
-    background-color: color-mix(in srgb, oklch(27.9% 0.077 45.635) 20%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-amber-950) 20%, transparent);
-    }
-  }
   .bg-artisanGold {
     background-color: var(--color-artisanGold);
   }
@@ -470,9 +449,6 @@
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-dark) 80%, transparent);
     }
-  }
-  .bg-red-500 {
-    background-color: var(--color-red-500);
   }
   .bg-zinc-800 {
     background-color: var(--color-zinc-800);
@@ -530,6 +506,9 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
   .px-2\.5 {
     padding-inline: calc(var(--spacing) * 2.5);
   }
@@ -541,9 +520,6 @@
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
-  }
-  .px-5 {
-    padding-inline: calc(var(--spacing) * 5);
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
@@ -692,14 +668,8 @@
   .text-zinc-200 {
     color: var(--color-zinc-200);
   }
-  .text-zinc-300 {
-    color: var(--color-zinc-300);
-  }
   .text-zinc-400 {
     color: var(--color-zinc-400);
-  }
-  .text-zinc-950 {
-    color: var(--color-zinc-950);
   }
   .lowercase {
     text-transform: lowercase;
@@ -774,14 +744,6 @@
       --tw-translate-y: calc(var(--spacing) * -1);
       translate: var(--tw-translate-x) var(--tw-translate-y);
     }
-    .hover\:border-amber-400\/50:hover {
-      border-color: color-mix(in srgb, oklch(82.8% 0.189 84.429) 50%, transparent);
-    }
-    @supports (color: color-mix(in lab, red, red)) {
-      .hover\:border-amber-400\/50:hover {
-        border-color: color-mix(in oklab, var(--color-amber-400) 50%, transparent);
-      }
-    }
     .hover\:border-amber-500\/50:hover {
       border-color: color-mix(in srgb, oklch(76.9% 0.188 70.08) 50%, transparent);
     }
@@ -808,9 +770,6 @@
     .hover\:text-black:hover {
       color: var(--color-black);
     }
-    .hover\:text-white:hover {
-      color: var(--color-white);
-    }
     .hover\:text-zinc-950:hover {
       color: var(--color-zinc-950);
     }
@@ -818,9 +777,6 @@
   @media (width >= 40rem) {
     .sm\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .sm\:gap-3 {
-      gap: calc(var(--spacing) * 3);
     }
     .sm\:px-12 {
       padding-inline: calc(var(--spacing) * 12);
