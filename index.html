@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Daniel's Bakery</title>
+  </head>
+  <body class="bg-[#0b0b0b] text-white">
+    <header class="sticky top-0 bg-dark/80 backdrop-blur-md z-1000">
+      <div
+        class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between"
+      >
+        <a href="#" class="text-artisanGold font-bold tracking-widest text-xl"
+          >DANIEL'S BAKERY</a
+        >
+
+        <ul
+          class="hidden md:flex gap-8 text-xs font-semibold uppercase tracking-wider text-white/70"
+        >
+          <li>
+            <a href="#" class="hover:text-artisanGold transition">Our Story</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-artisanGold transition"
+              >Today's Bakes</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:text-artisanGold transition">The Craft</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-artisanGold transition">Visit Us</a>
+          </li>
+        </ul>
+
+        <a
+          href="#"
+          class="px-4 py-2 text-xs font-bold uppercase tracking-wider border border-artisanGold/40 text-artisanGold rounded-full hover:bg-artisanGold hover:text-black transition"
+        >
+          Cart (0)
+        </a>
+      </div>
+    </header>
+
+    <section
+      class="relative min-h-[90vh] flex flex-col items-center justify-start text-center px-6 pt-36 pb-24 bg-[url('/imgs/cake2.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-[#0b0b0b] via-[#0b0b0b]/60 to-transparent pointer-events-none"
+      ></div>
+
+      <div class="relative z-10 max-w-3xl mx-auto flex flex-col items-center">
+        <div
+          class="inline-flex items-center gap-2 px-4 py-1.5 text-sm font-semibold border-artisanGold/30 text-artisanGold mb-4"
+        >
+          Hot out of the oven & fryer every morning from 6:30 AM
+        </div>
+
+        <h1
+          class="text-6xl sm:text-6xl font-extrabold tracking-tight text-white uppercase leading-tight"
+        >
+          Freshly baked, <br />
+          <span
+            class="font-cursive lowercase text-artisanGold text-5xl sm:text-7xl font-extrabold"
+            >Hand Crafted in Lagos</span
+          >
+        </h1>
+
+        <p
+          class="mt-4 text-lg sm:text-base text-white/80 max-w-xl leading-relaxed font-bold"
+        >
+          From rich, buttery Agege loaves and flaky spiced meat pies to
+          handcrafted celebration cakes, we bake comfort into every single bite.
+        </p>
+
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+          <button
+            class="px-6 py-3 rounded-full bg-artisanGold text-black font-bold text-xs uppercase tracking-wider hover:bg-dark hover:text-artisanGold hover:border-artisanGold transition shadow-[0_0_20px_rgba(212,175,55,0.3)] cursor-pointer"
+          >
+            Order for Delivery
+          </button>
+
+          <button class="Btn"></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="py-20 px-6 sm:px-12 text-zinc-100">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <span
+            class="text-amber-400 text-xs font-semibold tracking-widest uppercase px-3 py-1 rounded-full"
+          >
+            Daily Favorites
+          </span>
+          <h2
+            class="text-3xl sm:text-4xl font-bold tracking-tight text-white mt-4 mb-3 font-serif"
+          >
+            Baked to Perfection Every Morning
+          </h2>
+          <p class="text-zinc-400 text-sm sm:text-base leading-relaxed">
+            Handcrafted with slow-fermented doughs, rich churned butter, and
+            authentic local flavor. Zero preservatives.
+          </p>
+        </div>
+
+        <!-- Category Filter Pills -->
+        <div
+          class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12"
+        >
+          <button
+            class="px-5 py-2 text-xs font-semibold uppercase tracking-wider rounded-full bg-amber-400 text-zinc-950 transition-colors"
+          >
+            All
+          </button>
+          <button
+            class="px-5 py-2 text-xs font-semibold uppercase tracking-wider rounded-full bg-zinc-900 text-zinc-300 border border-zinc-800 hover:border-amber-400/50 hover:text-white transition-colors"
+          >
+            Artisanal Breads
+          </button>
+          <button
+            class="px-5 py-2 text-xs font-semibold uppercase tracking-wider rounded-full bg-zinc-900 text-zinc-300 border border-zinc-800 hover:border-amber-400/50 hover:text-white transition-colors"
+          >
+            Savory Pastries
+          </button>
+          <button
+            class="px-5 py-2 text-xs font-semibold uppercase tracking-wider rounded-full bg-zinc-900 text-zinc-300 border border-zinc-800 hover:border-amber-400/50 hover:text-white transition-colors"
+          >
+            Cakes
+          </button>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Card 1 -->
+          <div
+            class="group flex flex-col justify-between bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/50 rounded-2xl p-4 transition-all duration-300 hover:-translate-y-1"
+          >
+            <div>
+              <div
+                class="relative w-full h-52 bg-zinc-800 rounded-xl overflow-hidden mb-4 border border-zinc-800/80"
+              >
+                <span
+                  class="absolute top-3 left-3 z-10 text-[11px] font-medium tracking-wide uppercase px-2.5 py-1 rounded-md bg-zinc-950/80 text-amber-300 backdrop-blur-sm border border-amber-500/20"
+                >
+                  Daily Fresh
+                </span>
+                <img
+                  src="/images/sardine-bread.jpg"
+                  alt="Thick slice of golden brown spiced sardine loaf on dark slate"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <h3
+                class="text-base font-semibold text-white group-hover:text-amber-300 transition-colors mb-1.5"
+              >
+                Signature Spiced Sardine Loaf
+              </h3>
+              <p class="text-zinc-400 text-xs leading-relaxed mb-4">
+                Ultra-soft, sweet brioche-style butter loaf folded with savory,
+                slow-simmered flaked sardines.
+              </p>
+            </div>
+            <div
+              class="pt-4 border-t border-zinc-800/80 flex items-center justify-between"
+            >
+              <span class="text-lg font-bold text-amber-400">₦3,500</span>
+              <a
+                href="https://wa.me/2348123456789?text=Hello,%20I%20want%20to%20order%20the%20Signature%20Spiced%20Sardine%20Loaf"
+                target="_blank"
+                class="px-3.5 py-1.5 rounded-lg bg-zinc-800 hover:bg-amber-400 text-zinc-200 hover:text-zinc-950 text-xs font-medium transition-colors"
+              >
+                Order via WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="group flex flex-col justify-between bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/50 rounded-2xl p-4 transition-all duration-300 hover:-translate-y-1"
+          >
+            <div>
+              <div
+                class="relative w-full h-52 bg-zinc-800 rounded-xl overflow-hidden mb-4 border border-zinc-800/80"
+              >
+                <span
+                  class="absolute top-3 left-3 z-10 text-[11px] font-medium tracking-wide uppercase px-2.5 py-1 rounded-md bg-zinc-950/80 text-amber-300 backdrop-blur-sm border border-amber-500/20"
+                >
+                  Top Seller
+                </span>
+                <img
+                  src="/images/meat-pie.jpg"
+                  alt="Crisp, golden-brown Nigerian meat pies on baking parchment"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <h3
+                class="text-base font-semibold text-white group-hover:text-amber-300 transition-colors mb-1.5"
+              >
+                Classic Flaky Beef Meat Pie
+              </h3>
+              <p class="text-zinc-400 text-xs leading-relaxed mb-4">
+                Melt-in-your-mouth, flaky shortcrust pastry generously filled
+                with seasoned minced beef, potatoes, and sweet carrots.
+              </p>
+            </div>
+            <div
+              class="pt-4 border-t border-zinc-800/80 flex items-center justify-between"
+            >
+              <span class="text-lg font-bold text-amber-400">₦1,800</span>
+              <a
+                href="https://wa.me/2348123456789?text=Hello,%20I%20want%20to%20order%20the%20Classic%20Flaky%20Beef%20Meat%20Pie"
+                target="_blank"
+                class="px-3.5 py-1.5 rounded-lg bg-zinc-800 hover:bg-amber-400 text-zinc-200 hover:text-zinc-950 text-xs font-medium transition-colors"
+              >
+                Order via WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="group flex flex-col justify-between bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/50 rounded-2xl p-4 transition-all duration-300 hover:-translate-y-1"
+          >
+            <div>
+              <div
+                class="relative w-full h-52 bg-zinc-800 rounded-xl overflow-hidden mb-4 border border-zinc-800/80"
+              >
+                <span
+                  class="absolute top-3 left-3 z-10 text-[11px] font-medium tracking-wide uppercase px-2.5 py-1 rounded-md bg-zinc-950/80 text-amber-300 backdrop-blur-sm border border-amber-500/20"
+                >
+                  Celebration Pick
+                </span>
+                <img
+                  src="/images/vanilla-cake.jpg"
+                  alt="6-inch textured vanilla celebration cake with subtle gold leaf trim"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <h3
+                class="text-base font-semibold text-white group-hover:text-amber-300 transition-colors mb-1.5"
+              >
+                Rich Whipped Vanilla Cake (6-inch)
+              </h3>
+              <p class="text-zinc-400 text-xs leading-relaxed mb-4">
+                Tender vanilla sponge layered with light buttercream, topped
+                with gold leaf trim. Perfect for intimate tables.
+              </p>
+            </div>
+            <div
+              class="pt-4 border-t border-zinc-800/80 flex items-center justify-between"
+            >
+              <span class="text-lg font-bold text-amber-400">₦22,000</span>
+              <a
+                href="https://wa.me/2348123456789?text=Hello,%20I%20want%20to%20order%20the%20Rich%20Whipped%20Vanilla%20Cake"
+                target="_blank"
+                class="px-3.5 py-1.5 rounded-lg bg-zinc-800 hover:bg-amber-400 text-zinc-200 hover:text-zinc-950 text-xs font-medium transition-colors"
+              >
+                Order via WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="group flex flex-col justify-between bg-zinc-900/60 border border-zinc-800 hover:border-amber-500/50 rounded-2xl p-4 transition-all duration-300 hover:-translate-y-1"
+          >
+            <div>
+              <div
+                class="relative w-full h-52 bg-zinc-800 rounded-xl overflow-hidden mb-4 border border-zinc-800/80"
+              >
+                <span
+                  class="absolute top-3 left-3 z-10 text-[11px] font-medium tracking-wide uppercase px-2.5 py-1 rounded-md bg-zinc-950/80 text-amber-300 backdrop-blur-sm border border-amber-500/20"
+                >
+                  Baker's Special
+                </span>
+                <img
+                  src="/images/coconut-bread.jpg"
+                  alt="Golden toasted coconut bread loaf dusted with crisp coconut shreds"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <h3
+                class="text-base font-semibold text-white group-hover:text-amber-300 transition-colors mb-1.5"
+              >
+                Toasted Coconut Milk Bread
+              </h3>
+              <p class="text-zinc-400 text-xs leading-relaxed mb-4">
+                Sweet pull-apart milk loaf kneaded with rich coconut milk and
+                finished with a crispy toasted coconut crust.
+              </p>
+            </div>
+            <div
+              class="pt-4 border-t border-zinc-800/80 flex items-center justify-between"
+            >
+              <span class="text-lg font-bold text-amber-400">₦3,000</span>
+              <a
+                href="https://wa.me/2348123456789?text=Hello,%20I%20want%20to%20order%20the%20Toasted%20Coconut%20Milk%20Bread"
+                target="_blank"
+                class="px-3.5 py-1.5 rounded-lg bg-zinc-800 hover:bg-amber-400 text-zinc-200 hover:text-zinc-950 text-xs font-medium transition-colors"
+              >
+                Order via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold underline text-green-500">Hello world!</h1>
+  </body>
+</html> -->
