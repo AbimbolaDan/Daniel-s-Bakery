@@ -6,60 +6,53 @@
     <link href="./output.css" rel="stylesheet" />
     <title>Daniel's Bakery</title>
   </head>
-  <body class="bg-[#0b0b0b] text-white">
+  <body>
     <header class="sticky top-0 bg-dark/80 backdrop-blur-md z-1000">
-      <div
-        class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between"
-      >
-        <a href="#" class="text-artisanGold font-bold tracking-widest text-xl"
-          >DANIEL'S BAKERY</a
+      <nav>
+        <div
+          class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between"
         >
+          <a
+            href="index.html"
+            class="text-artisanGold font-bold tracking-widest text-xl"
+            >DANIEL'S BAKERY</a
+          >
 
-        <ul
-          class="hidden md:flex gap-8 text-xs font-semibold uppercase tracking-wider text-white/70"
-        >
-          <li>
-            <a href="#" class="hover:text-artisanGold transition">Our Story</a>
-          </li>
-          <li>
-            <a href="#" class="hover:text-artisanGold transition"
-              >Today's Bakes</a
-            >
-          </li>
-          <li>
-            <a href="#" class="hover:text-artisanGold transition">The Craft</a>
-          </li>
-          <li>
-            <a href="#" class="hover:text-artisanGold transition">Visit Us</a>
-          </li>
-        </ul>
+          <ul
+            class="hidden md:flex gap-8 text-xs font-semibold uppercase tracking-wider text-white/70"
+          >
+            <li>
+              <a href="#" class="links">Our Story</a>
+            </li>
+            <li>
+              <a href="#" class="links">Today's Bakes</a>
+            </li>
+            <li>
+              <a href="#" class="links">The Craft</a>
+            </li>
+            <li>
+              <a href="#" class="links">Visit Us</a>
+            </li>
+          </ul>
 
-        <a
-          href="#"
-          class="px-4 py-2 text-xs font-bold uppercase tracking-wider border border-artisanGold/40 text-artisanGold rounded-full hover:bg-artisanGold hover:text-black transition"
-        >
-          Cart (0)
-        </a>
-      </div>
+          <a href="#" class="cart-btn"> Cart (0) </a>
+        </div>
+      </nav>
     </header>
 
-    <section
-      class="relative min-h-[90vh] flex flex-col items-center justify-start text-center px-6 pt-36 pb-24 bg-[url('/imgs/cake2.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden"
-    >
+    <section class="hero-section">
       <div
         class="absolute inset-0 bg-gradient-to-b from-[#0b0b0b] via-[#0b0b0b]/60 to-transparent pointer-events-none"
       ></div>
 
       <div class="relative z-10 max-w-3xl mx-auto flex flex-col items-center">
         <div
-          class="inline-flex items-center gap-2 px-4 py-1.5 text-sm font-semibold border-artisanGold/30 text-artisanGold mb-4"
+          class="inline-flex items-center gap-2 px-4 py-1.5 text-[15px] font-semibold border-artisanGold/30 text-artisanGold mb-4"
         >
           Hot out of the oven & fryer every morning from 6:30 AM
         </div>
 
-        <h1
-          class="text-6xl sm:text-6xl font-extrabold tracking-tight text-white uppercase leading-tight"
-        >
+        <h1>
           Freshly baked, <br />
           <span
             class="font-cursive lowercase text-artisanGold text-5xl sm:text-7xl font-extrabold"
@@ -68,13 +61,13 @@
         </h1>
 
         <p
-          class="mt-4 text-lg sm:text-base text-white/80 max-w-xl leading-relaxed font-bold"
+          class="mt-4 text-lg sm:text-base text-white max-w-xl leading-relaxed font-bold"
         >
           From rich, buttery Agege loaves and flaky spiced meat pies to
           handcrafted celebration cakes, we bake comfort into every single bite.
         </p>
 
-        <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-5">
           <button
             class="px-6 py-3 rounded-full bg-artisanGold text-black font-bold text-xs uppercase tracking-wider hover:bg-dark hover:text-artisanGold hover:border-artisanGold transition shadow-[0_0_20px_rgba(212,175,55,0.3)] cursor-pointer"
           >
@@ -88,9 +81,11 @@
 
     <section id="menu" class="py-20 px-6 sm:px-12 text-zinc-100 mt-[50px]">
       <div class="max-w-7xl mx-auto">
-        <div class="text-center max-w-2xl mx-auto mb-12">
+        <div
+          class="text-center max-w-2xl mx-auto mb-12 flex flex-col justify-center items-center"
+        >
           <span
-            class="text-amber-400 text-lg font-bold tracking-widest uppercase px-3 py-1 rounded-full"
+            class="text-amber-400 text-lg font-bold tracking-widest uppercase px-3 py-1"
           >
             Daily Favorites
           </span>
@@ -100,7 +95,7 @@
             Baked to Perfection Every Morning
           </h2>
           <p
-            class="text-zinc-400 text-sm sm:text-base leading-relaxed font-bold"
+            class="text-zinc-400 text-sm sm:text-base leading-relaxed font-bold max-w-xl text-center"
           >
             Handcrafted with slow-fermented doughs, rich churned butter, and
             authentic local flavor. Zero preservatives.
@@ -287,7 +282,7 @@
     <!-- Section 4: Custom Event Cakes (Lead Banner) -->
     <section
       id="custom-cakes"
-      class="bg-zinc-950 py-20 px-6 sm:px-12 border-t border-zinc-900 text-zinc-100"
+      class="spy-20 px-6 sm:px-12 border-t border-zinc-900 text-zinc-100"
     >
       <div class="max-w-7xl mx-auto">
         <div

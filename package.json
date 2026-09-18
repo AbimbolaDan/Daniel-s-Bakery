@@ -13,5 +13,14 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
     "tailwindcss": "^4.3.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbimbolaDan/Daniel-s-Bakery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AbimbolaDan/Daniel-s-Bakery/issues"
+  },
+  "homepage": "https://github.com/AbimbolaDan/Daniel-s-Bakery#readme"
 }
