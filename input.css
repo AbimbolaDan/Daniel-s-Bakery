@@ -84,6 +84,9 @@ body {
   .hero-section {
     @apply relative min-h-[90vh] flex flex-col items-center justify-start text-center px-6 md:pt-30 pt-10 pb-24 bg-[url('/imgs/cake2.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden;
   }
+  .cards {
+    @apply group flex flex-col justify-between bg-zinc-900/60 border border-zinc800 hover:border-amber-500/50 rounded-2xl p-4 transition-all duration-300 hover:-translate-y-1;
+  }
 }
 
 @layer base {
