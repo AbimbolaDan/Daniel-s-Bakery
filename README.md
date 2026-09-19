@@ -6,7 +6,7 @@ A responsive, high-contrast landing page built for **Daniel's Bakery**, an artis
 
 ## 🌐 Live Demo & Deployment
 
-- **Live URL:** [https://daniel-s-bakery.vercel.app/](https://your-project-name.vercel.app)
+- **Live URL:** [https://daniel-s-bakery.vercel.app/](https://daniel-s-bakery.vercel.app/)
 - **Hosted on:** [Vercel](https://vercel.com/)
 
 ---
