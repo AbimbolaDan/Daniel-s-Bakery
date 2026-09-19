@@ -82,13 +82,16 @@ body {
     @apply px-4 py-2 text-xs font-bold uppercase tracking-wider border border-artisanGold/40 text-artisanGold rounded-full hover:bg-artisanGold hover:text-black transition;
   }
   .hero-section {
-    @apply relative min-h-[90vh] flex flex-col items-center justify-start text-center px-6 md:pt-30 pt-10 pb-24 bg-[url('/imgs/cake2.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden;
+    @apply relative min-h-[90vh] flex flex-col items-center justify-start text-center px-6 md:pt-30 pt-10 pb-24 bg-[url('./imgs/cake2.jpg')] bg-cover bg-center bg-no-repeat overflow-hidden;
   }
-  
 }
 
 @layer base {
   h1 {
     @apply text-6xl sm:text-6xl font-extrabold tracking-tight text-white uppercase leading-tight;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
