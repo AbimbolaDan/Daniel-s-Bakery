@@ -4,6 +4,13 @@ A responsive, high-contrast landing page built for **Daniel's Bakery**, an artis
 
 ---
 
+## 🌐 Live Demo & Deployment
+
+- **Live URL:** [https://daniel-s-bakery.vercel.app/](https://your-project-name.vercel.app)
+- **Hosted on:** [Vercel](https://vercel.com/)
+
+---
+
 ## 📸 Preview
 
 ![Daniel's Bakery Preview](./imgs/card3.jpg)
@@ -25,8 +32,8 @@ A responsive, high-contrast landing page built for **Daniel's Bakery**, an artis
 
 - **Markup:** Semantic HTML5
 - **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
-- **Fonts:** [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) & [Dancing Script](https://fonts.google.com/specimen/Dancing+Script)
-- **Deployment / Tooling:** PostCSS / Tailwind CLI
+- **Typography:** [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) & [Dancing Script](https://fonts.google.com/specimen/Dancing+Script)
+- **Deployment Platform:** [Vercel](https://vercel.com/)
 
 ---
 
@@ -34,7 +41,7 @@ A responsive, high-contrast landing page built for **Daniel's Bakery**, an artis
 
 ```text
 ├── index.html          # Main semantic HTML structure
-├── input.css           # Tailwind custom imports, themes, and animations
+├── input.css           # Tailwind custom imports, theme colors, and custom button styling
 ├── output.css          # Compiled Tailwind CSS output
 └── imgs/               # Optimized imagery for hero, products, and banners
 ```
